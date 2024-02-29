@@ -1,0 +1,4 @@
+bool as int (determines if the save file is fresh or not)
+int (index of last spawn point the player passed, determines where they spawn in)
+2D array of int "LevelIndex;Objective1Objective2;Objective3-LevelIndex"... (LevelIndex determines the relevant level, each object is 1 or 0 based on completion)
+int (who is the head player)
